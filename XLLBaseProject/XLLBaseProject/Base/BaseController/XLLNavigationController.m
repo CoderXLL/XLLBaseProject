@@ -7,6 +7,7 @@
 //
 
 #import "XLLNavigationController.h"
+#import "UIImage+XLL.h"
 
 @interface XLLNavigationController ()
 
@@ -21,12 +22,10 @@
     //取消半透明
     navigationBar.translucent = NO;
     navigationBar.barTintColor = [UIColor redColor];
-    /**
     if ([UINavigationBar instancesRespondToSelector:@selector(setShadowImage:)])
     {
-        [navigationBar setShadowImage:[[UIImage alloc] init]];
+        [navigationBar setShadowImage:[UIImage imageWithColor:[UIColor blackColor]]];
     }
-     */
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
     attrs[NSFontAttributeName] = XLLFont(17.0);
     attrs[NSForegroundColorAttributeName] = [UIColor whiteColor];

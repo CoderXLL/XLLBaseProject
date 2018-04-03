@@ -26,6 +26,7 @@
 		A9C95C5C2071F542007DF4D8 /* XLLSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C95C5A2071F542007DF4D8 /* XLLSecondController.m */; };
 		A9C95C5F2071F549007DF4D8 /* XLLThirdController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C95C5E2071F549007DF4D8 /* XLLThirdController.m */; };
 		A9C95C632071F5CE007DF4D8 /* Public.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C95C622071F5CE007DF4D8 /* Public.m */; };
+		A9CB193C20731182006AC16E /* UIImage+XLL.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CB193B20731182006AC16E /* UIImage+XLL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		A9C95C602071F5CE007DF4D8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		A9C95C612071F5CE007DF4D8 /* Public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
 		A9C95C622071F5CE007DF4D8 /* Public.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Public.m; sourceTree = "<group>"; };
+		A9CB193A20731182006AC16E /* UIImage+XLL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XLL.h"; sourceTree = "<group>"; };
+		A9CB193B20731182006AC16E /* UIImage+XLL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XLL.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 				A9C95C4E2071F508007DF4D8 /* UIView+Quick.m */,
 				A9C95C4F2071F508007DF4D8 /* UIViewController+Configuration.h */,
 				A9C95C4C2071F508007DF4D8 /* UIViewController+Configuration.m */,
+				A9CB193A20731182006AC16E /* UIImage+XLL.h */,
+				A9CB193B20731182006AC16E /* UIImage+XLL.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				A9C95C452071F4F2007DF4D8 /* XLLBaseTBController.m in Sources */,
 				A9C95C512071F508007DF4D8 /* NSString+XLL.m in Sources */,
 				A9C95C502071F508007DF4D8 /* UIViewController+Configuration.m in Sources */,
+				A9CB193C20731182006AC16E /* UIImage+XLL.m in Sources */,
 				A9C95C432071F4F2007DF4D8 /* XLLBaseController.m in Sources */,
 				A9C95C492071F4FA007DF4D8 /* XLLBaseCell.m in Sources */,
 				A9C95C5C2071F542007DF4D8 /* XLLSecondController.m in Sources */,
