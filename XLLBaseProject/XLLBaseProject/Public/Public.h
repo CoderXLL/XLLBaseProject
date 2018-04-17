@@ -17,6 +17,10 @@
 #define CGWidth(_obj) CGRectGetWidth(_obj.frame)
 #define CGHeight(_obj) CGRectGetHeight(_obj.frame)
 
+// 屏幕尺寸
+#define UI_SCREEN_WIDTH      ([[UIScreen mainScreen] bounds].size.width)
+#define UI_SCREEN_HEIGHT     ([[UIScreen mainScreen] bounds].size.height)
+
 //色彩宏定义
 #define RGBA(R, G, B, A) [UIColor colorWithRed:(R)/255.0f green:(G)/255.0f blue:(B)/255.0f alpha:(A)]
 #define RGB(R, G, B) RGBA(R, G, B, 1.0)
@@ -34,7 +38,7 @@
 #   define XLLLog(fmt, ...) {NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}
 #   define ELog(err) {if(err) XLLLog(@"%@", err)}
 #else
-#   define DLog(...)
+#   define XLLLog(...)
 #   define ELog(err)
 #endif
 

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9C95C132071F458007DF4D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C95C122071F458007DF4D8 /* AppDelegate.m */; };
+		A96CD44F207381F100B4F762 /* XLLBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = A96CD44E207381F100B4F762 /* XLLBaseView.m */; };
 		A9C95C162071F458007DF4D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C95C152071F458007DF4D8 /* ViewController.m */; };
 		A9C95C192071F458007DF4D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C95C172071F458007DF4D8 /* Main.storyboard */; };
 		A9C95C1B2071F458007DF4D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C95C1A2071F458007DF4D8 /* Assets.xcassets */; };
@@ -27,6 +27,7 @@
 		A9C95C5F2071F549007DF4D8 /* XLLThirdController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C95C5E2071F549007DF4D8 /* XLLThirdController.m */; };
 		A9C95C632071F5CE007DF4D8 /* Public.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C95C622071F5CE007DF4D8 /* Public.m */; };
 		A9CB193C20731182006AC16E /* UIImage+XLL.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CB193B20731182006AC16E /* UIImage+XLL.m */; };
+		A9CB1970207315E8006AC16E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CB196F207315E8006AC16E /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A96CD44D207381F100B4F762 /* XLLBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLBaseView.h; sourceTree = "<group>"; };
+		A96CD44E207381F100B4F762 /* XLLBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLBaseView.m; sourceTree = "<group>"; };
 		A9C95C0E2071F458007DF4D8 /* XLLBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLLBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9C95C112071F458007DF4D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A9C95C122071F458007DF4D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A9C95C142071F458007DF4D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A9C95C152071F458007DF4D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A9C95C182071F458007DF4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +81,8 @@
 		A9C95C622071F5CE007DF4D8 /* Public.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Public.m; sourceTree = "<group>"; };
 		A9CB193A20731182006AC16E /* UIImage+XLL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XLL.h"; sourceTree = "<group>"; };
 		A9CB193B20731182006AC16E /* UIImage+XLL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XLL.m"; sourceTree = "<group>"; };
+		A9CB196E207315E8006AC16E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9CB196F207315E8006AC16E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,19 +124,14 @@
 		A9C95C102071F458007DF4D8 /* XLLBaseProject */ = {
 			isa = PBXGroup;
 			children = (
+				A9CB197120731606006AC16E /* SupportingFiles */,
+				A9CB196D207315E8006AC16E /* AppDelegate */,
 				A9C95C532071F532007DF4D8 /* General */,
 				A9C95C3A2071F4DA007DF4D8 /* Public */,
 				A9C95C352071F48F007DF4D8 /* Base */,
 				A9C95C362071F48F007DF4D8 /* Category */,
-				A9C95C112071F458007DF4D8 /* AppDelegate.h */,
-				A9C95C122071F458007DF4D8 /* AppDelegate.m */,
 				A9C95C142071F458007DF4D8 /* ViewController.h */,
 				A9C95C152071F458007DF4D8 /* ViewController.m */,
-				A9C95C172071F458007DF4D8 /* Main.storyboard */,
-				A9C95C1A2071F458007DF4D8 /* Assets.xcassets */,
-				A9C95C1C2071F458007DF4D8 /* LaunchScreen.storyboard */,
-				A9C95C1F2071F458007DF4D8 /* Info.plist */,
-				A9C95C202071F458007DF4D8 /* main.m */,
 			);
 			path = XLLBaseProject;
 			sourceTree = "<group>";
@@ -199,6 +197,8 @@
 			children = (
 				A9C95C472071F4F9007DF4D8 /* XLLBaseCell.h */,
 				A9C95C482071F4FA007DF4D8 /* XLLBaseCell.m */,
+				A96CD44D207381F100B4F762 /* XLLBaseView.h */,
+				A96CD44E207381F100B4F762 /* XLLBaseView.m */,
 			);
 			path = BaseView;
 			sourceTree = "<group>";
@@ -248,6 +248,27 @@
 				A9C95C5E2071F549007DF4D8 /* XLLThirdController.m */,
 			);
 			path = ThirdModule;
+			sourceTree = "<group>";
+		};
+		A9CB196D207315E8006AC16E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A9CB196E207315E8006AC16E /* AppDelegate.h */,
+				A9CB196F207315E8006AC16E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A9CB197120731606006AC16E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A9C95C172071F458007DF4D8 /* Main.storyboard */,
+				A9C95C1A2071F458007DF4D8 /* Assets.xcassets */,
+				A9C95C1C2071F458007DF4D8 /* LaunchScreen.storyboard */,
+				A9C95C1F2071F458007DF4D8 /* Info.plist */,
+				A9C95C202071F458007DF4D8 /* main.m */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,6 +376,7 @@
 				A9C95C162071F458007DF4D8 /* ViewController.m in Sources */,
 				A9C95C452071F4F2007DF4D8 /* XLLBaseTBController.m in Sources */,
 				A9C95C512071F508007DF4D8 /* NSString+XLL.m in Sources */,
+				A96CD44F207381F100B4F762 /* XLLBaseView.m in Sources */,
 				A9C95C502071F508007DF4D8 /* UIViewController+Configuration.m in Sources */,
 				A9CB193C20731182006AC16E /* UIImage+XLL.m in Sources */,
 				A9C95C432071F4F2007DF4D8 /* XLLBaseController.m in Sources */,
@@ -366,7 +388,7 @@
 				A9C95C592071F53C007DF4D8 /* XLLFirstController.m in Sources */,
 				A9C95C212071F458007DF4D8 /* main.m in Sources */,
 				A9C95C442071F4F2007DF4D8 /* XLLNavigationController.m in Sources */,
-				A9C95C132071F458007DF4D8 /* AppDelegate.m in Sources */,
+				A9CB1970207315E8006AC16E /* AppDelegate.m in Sources */,
 				A9C95C522071F508007DF4D8 /* UIView+Quick.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,7 +542,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXU4P5494Q;
 				GCC_PREFIX_HEADER = XLLBaseProject/Public/PrefixHeader.pch;
-				INFOPLIST_FILE = XLLBaseProject/Info.plist;
+				INFOPLIST_FILE = XLLBaseProject/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOSCoder.XLLBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -535,7 +557,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXU4P5494Q;
 				GCC_PREFIX_HEADER = XLLBaseProject/Public/PrefixHeader.pch;
-				INFOPLIST_FILE = XLLBaseProject/Info.plist;
+				INFOPLIST_FILE = XLLBaseProject/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iOSCoder.XLLBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
